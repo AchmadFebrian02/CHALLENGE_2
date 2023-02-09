@@ -1,0 +1,119 @@
+body{
+    font-size:14px;
+}
+.navbar, #banner{
+    background-color: #F1F3FF;
+}
+.btn-green{
+    background-color: #68ce6f;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+#banner p{
+    margin: 25px 0;
+}
+
+#our-services ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#our-services li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#our-services li:before{
+    content:url(../assets/images/Ceklis.png);
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+}
+#our-services img{
+    height: 374px;
+    margin-right: 40px;
+}
+
+#SewaMobil{
+    position: relative;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0,8);
+	border-radius: 10px;
+    left: 25%;
+	margin-top: 50px;
+    height: 250px;
+    width: 50%;
+	background-color: blue;
+}
+#SewaMobil h4{
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+#SewaMobil p{
+    padding-bottom: 40px;
+    color: white;
+}
+#SewaMobil a{
+    padding: 0;
+}
+
+
+/*swiper css */
+#Testimonial.card{
+    background-color:#F1F3FF;
+}
+
+.carousel-wrapper{
+    overflow: hidden;
+}
+.swiper-container {
+    width: 50%;
+    height: 100%;
+    overflow: visible;
+    margin: 0 auto;
+}
+.swiper-navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .swiper-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+  #Why-Us h4 {
+    text-align: center;
+  }
+  #Why-Us P {
+    text-align: center;
+  }
+
+  #banner img {
+    height: 270px;
+    margin-bottom: 10px;
+  }
+
+  #SewaMobil{
+    position: relative;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0,8);
+	border-radius: 10px;
+    left: 25%;
+	margin-top: 50px;
+    height: 350px;
+    width: 50%;
+	background-color: blue;
+}
+
+    #frequently h1 {
+        text-align: center;
+    }
+    #frequently p {
+        text-align: center;
+    }
+}
+    
